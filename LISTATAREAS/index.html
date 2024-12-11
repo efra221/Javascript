@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarea</title>
+    <link rel="stylesheet" href="../LISTATAREAS/Css/style.css">
+</head>
+
+<body>
+    <div id="contenedor" class="contenedor">
+        <h1>Lista de tareas</h1>
+        <div class="group">
+            <input required="" type="text" class="input" id="tarea">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Name</label>
+        </div><br>
+        <div class="group">
+            <input required="" type="date" class="input" id="fecha">
+            <span class="bar"></span>
+        </div><br>  
+        <button class="btn2" onclick="guardarTarea()"> <span class="spn2">Guardar</span></button>
+    </div>
+
+    <div id="divTareas" class="listTarea">
+        <ol id="tareas"></ol>
+    </div>
+
+    <script src="../LISTATAREAS/JS/app.js"></script>
+</body>
+
+</html>

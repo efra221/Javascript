@@ -71,3 +71,26 @@ function cambiarRuta() {
     enlace.setAttribute("href","https://www.vanguardia.com/")
     nombre.textContent= "vanguardia"
 }
+
+function otraFuncion() {
+    const caja = document.querySelector('.miClase');
+    caja.style.backgroundColor = 'blue';    
+}
+
+const contenedor = document.getElementById("contenedor")
+function ocultar(){
+    contenedor.classList.toggle("oculto");
+}
+
+function cambiar(){
+    contenedor.classList.toggle("secundaria");
+    contenedor.style.marginLeft = "400px"
+}
+
+function mover(){
+    contenedor.style.marginLeft = "0px"
+    contenedor.style.backgroundColor = "red"
+    const nuevoDiv = document.createElement('div');
+    nuevoDiv.textContent = 'Soy un nuevo DIV';
+    document.body.appendChild(nuevoDiv);
+}

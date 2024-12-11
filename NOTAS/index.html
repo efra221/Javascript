@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="content-wrapper">
+            <div class="form-container">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+    
+                <label for="nota1">Nota 1</label>
+                <input type="number" id="nota1" placeholder="Ingresa la primera nota">
+    
+                <label for="nota2">Nota 2</label>
+                <input type="number" id="nota2" placeholder="Ingresa la segunda nota">
+    
+                <label for="nota3">Nota 3</label>
+                <input type="number" id="nota3" placeholder="Ingresa la tercera nota">
+    
+                <button onclick="cambiar()">Guardar</button>
+            </div>
+            
+            <div class="table-container">
+                <table class="result-table" id="tablaResultado">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota 3</th>
+                            <th>Promedio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="JS/Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.principal{
+    background-color: aquamarine;
+}
+
+.secundaria{
+    background-color: blue;
+}
+
+.oculto{
+    display: none;
+}
